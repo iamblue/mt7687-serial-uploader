@@ -8,4 +8,11 @@ used xmodem,pyserial and pyprind
 -c COM_PORT     COM port, can be COM1, COM2, ..., COMx
 ```
 ##Example
+windows: 
+```
 python .\upload.py -c com24 -f ./gpio_configure_pull_state.bin
+```
+mac:
+```
+python ./upload.py -c /dev/tty.usbmodem1412 -f ./gpio_configure_pull_state.bin 
+```
